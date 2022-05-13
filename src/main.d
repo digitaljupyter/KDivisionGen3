@@ -17,13 +17,14 @@ module main;
 import kdiv;
 import std.stdio;
 
-void main() {
+void main()
+{
     float e = basic_division(12, 3);
     float b = 12 / 3;
     writeln(e);
     writeln(b);
 
-    float a = 9/5;
+    float a = 9 / 5;
     float c = rem_division_v2(9, 5);
     writeln(a);
     writeln(c);
